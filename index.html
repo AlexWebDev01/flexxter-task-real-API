@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task for Flexxter - Alex Udodov</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <task-list></task-list>
+    </main>
+
+    <!-- Task List template -->
+    <template id="task-list-element">
+        <h1>Tasks</h1>
+        <task-elements></task-elements>
+    </template>
+
+    <!-- Task Element template -->
+    <template id="task-element">
+        <div class='checkbox'></div>
+        <h2></h2>
+        <p></p>
+    </template>
+
+    <script src="./script.js"></script>
+</body>
+</html>
